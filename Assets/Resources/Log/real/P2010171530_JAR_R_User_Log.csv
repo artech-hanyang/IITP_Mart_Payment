@@ -1,0 +1,96 @@
+﻿AppTime,Actor,Event_Category,Event_Type,Object,Attributes
+66.87489,ADMIN,ACTION,CLICK,introEvent:btn_start,CONTENS_START!!
+112.1098,USER,ACTION,ITEM_ADD,Cheese,Cheese1
+112.1108,SYSTEM,SYSTEM_MESSAGE,ITEM_ADD,screen1_result_message,치즈 (이)가 추가되었습니다.
+112.1172,SYSTEM,SCREEN,SCREEN_UPDATE,UPDATE,Screen information Updated
+112.1187,SYSTEM,SYSTEM_MESSAGE,NOTIFICATION,Phone Calling,Calling
+113.5995,SYSTEM,SYSTEM_MESSAGE,NOTIFICATION,Call_subtitle,APPEARS
+130.8925,USER,ACTION,ITEM_ADD,Cheese,Cheese2
+130.8934,SYSTEM,SYSTEM_MESSAGE,ITEM_ADD,screen1_result_message,치즈 (이)가 추가되었습니다.
+130.8991,SYSTEM,SCREEN,SCREEN_UPDATE,UPDATE,Screen information Updated
+136.1236,SYSTEM,SYSTEM_MESSAGE,NOTIFICATION,Call_subtitle,DISAPPEARS
+139.3399,USER,ACTION,ITEM_ADD,Baguette,Baguette1
+139.3406,SYSTEM,SYSTEM_MESSAGE,ITEM_ADD,screen1_result_message,빵 (이)가 추가되었습니다.
+139.3465,SYSTEM,SCREEN,SCREEN_UPDATE,UPDATE,Screen information Updated
+144.3154,USER,ACTION,ITEM_ADD,Cabbage,Cabbage1
+144.3164,SYSTEM,SYSTEM_MESSAGE,ITEM_ADD,screen1_result_message,양배추 (이)가 추가되었습니다.
+144.3226,SYSTEM,SCREEN,SCREEN_UPDATE,UPDATE,Screen information Updated
+149.1231,USER,ACTION,ITEM_ADD,Coffee,Coffee1
+149.1239,SYSTEM,SYSTEM_MESSAGE,ITEM_ADD,screen1_result_message,커피 (이)가 추가되었습니다.
+149.1303,SYSTEM,SCREEN,SCREEN_UPDATE,UPDATE,Screen information Updated
+154.0713,USER,ACTION,ITEM_ADD,Tomato,Tomato1
+154.0719,SYSTEM,SYSTEM_MESSAGE,ITEM_ADD,screen1_result_message,토마토 (이)가 추가되었습니다.
+154.078,SYSTEM,SCREEN,SCREEN_UPDATE,UPDATE,Screen information Updated
+158.7123,USER,ACTION,ITEM_ADD,Pumpkin,Pumpkin1
+158.713,SYSTEM,SYSTEM_MESSAGE,ITEM_ADD,screen1_result_message,호박 (이)가 추가되었습니다.
+158.7187,SYSTEM,SCREEN,SCREEN_UPDATE,UPDATE,Screen information Updated
+163.7725,USER,ACTION,BTN_TOUCH,btn_pay,Screen1(Home_screen):btn_pay()
+164.7723,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen1toScreen3After1s(),screen1:Screen1(home) to Screen3(asking_dc)
+167.3964,USER,ACTION,BTN_TOUCH,btn_yes,Screen3:btn_yes()
+167.4822,USER,ACTION,BTN_TOUCH,btn_yes,Screen3:btn_yes()
+168.2474,USER,ACTION,BTN_TOUCH,btn_yes,Screen3:btn_yes()
+168.4019,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen3toScreen4After1s(),Screen3(asking dc) to Screen4(ds)
+168.4792,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen3toScreen4After1s(),Screen3(asking dc) to Screen4(ds)
+169.2499,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen3toScreen4After1s(),Screen3(asking dc) to Screen4(ds)
+169.9597,USER,ACTION,BTN_TOUCH,Key_Z,
+172.1256,USER,ACTION,BTN_TOUCH,Key_K,
+174.6272,USER,ACTION,BTN_TOUCH,Key_J,
+175.9686,USER,ACTION,BTN_TOUCH,Key_5,
+177.3006,USER,ACTION,BTN_TOUCH,btn_apply,
+177.3016,USER,ACTION,CODE_FAIL,,errors:1
+177.3022,SYSTEM,SYSTEM_MESSAGE,CODE_FAIL,result_message,screen4:할인코드를 다시 확인해주세요..
+179.477,USER,ACTION,BTN_TOUCH,Key_Z,
+180.263,USER,ACTION,BTN_TOUCH,Key_K,
+181.5323,USER,ACTION,BTN_TOUCH,Key_5,
+182.2626,USER,ACTION,BTN_TOUCH,Key_J,
+183.1647,USER,ACTION,BTN_TOUCH,btn_apply,
+183.1655,USER,ACTION,CODE_FAIL,,errors:2
+183.166,SYSTEM,SYSTEM_MESSAGE,CODE_FAIL,result_message,screen4:할인코드를 다시 확인해주세요..
+193.3383,USER,ACTION,BTN_TOUCH,Key_Z,
+195.571,USER,ACTION,BTN_TOUCH,Key_K,
+197.7337,USER,ACTION,BTN_TOUCH,Key_J,
+199.5775,USER,ACTION,BTN_TOUCH,Key_5,
+201.2198,USER,ACTION,BTN_TOUCH,btn_apply,
+201.2208,USER,ACTION,CODE_FAIL,,errors:3
+201.2215,SYSTEM,SYSTEM_MESSAGE,CODE_FAIL,result_message,screen4:할인코드를 다시 확인해주세요..
+201.2271,SYSTEM,SYSTEM_MESSAGE,NOTIFICATION,Phone Message,Sent a discount code (User failed to enter the discount code)
+208.916,USER,ACTION,BTN_TOUCH,Key_Z,
+209.9417,USER,ACTION,BTN_TOUCH,Key_K,
+211.0074,USER,ACTION,BTN_TOUCH,Key_J,
+211.8075,USER,ACTION,BTN_TOUCH,Key_5,
+213.3846,USER,ACTION,BTN_TOUCH,Key_0,
+214.5165,USER,ACTION,BTN_TOUCH,btn_apply,
+214.5172,USER,ACTION,CODE_SUCC,37000,screen4
+214.5177,SYSTEM,SYSTEM_MESSAGE,CODE_SUCC,result_message,screen4:할인코드 적용이 완료되었습니다!
+215.5192,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen4toScreen1After1s(),screen4:Screen4(dc) to Screen1(home)
+215.5242,SYSTEM,SYSTEM_MESSAGE,SCREEN_UPDATE,result_message,trying to pay
+215.5249,SYSTEM,SYSTEM_MESSAGE,SCREEN_UPDATE,result_message,trying to pay
+222.4806,USER,ACTION,PAY,card,discount_yn:Y
+222.4815,USER,ACTION,LIMITS_EXCEEDED,37000,discount_yn:Y
+222.482,SYSTEM,SYSTEM_MESSAGE,RESULT_MSG,37000,discount_yn:Y
+247.0239,USER,ACTION,BTN_TOUCH,btn_uncheck,Screen1(Home_screen):btn_uncheck()
+247.0265,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen1toScreen2After1s(),screen1:Screen1(home) to Screen2(cancel)
+249.4576,USER,ACTION,ITEM_REMOVE,Coffee,Coffee1
+249.4585,SYSTEM,SYSTEM_MESSAGE,ITEM_REMOVE,screen2_result_message,커피 ( 6000 원 ) (이)가 취소되었습니다.
+252.4576,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen2toScreen1After3s,Screen2(cancel) to Screen1(home)
+252.464,SYSTEM,SCREEN,SCREEN_UPDATE,UPDATE,Screen information Updated
+270.0245,USER,ACTION,ITEM_DUP_ADD,Pumpkin,Pumpkin1
+273.3862,USER,ACTION,BTN_TOUCH,btn_uncheck,Screen1(Home_screen):btn_uncheck()
+273.3886,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen1toScreen2After1s(),screen1:Screen1(home) to Screen2(cancel)
+275.297,USER,ACTION,ITEM_REMOVE,Pumpkin,Pumpkin1
+275.2979,SYSTEM,SYSTEM_MESSAGE,ITEM_REMOVE,screen2_result_message,호박 ( 6000 원 ) (이)가 취소되었습니다.
+278.3006,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen2toScreen1After3s,Screen2(cancel) to Screen1(home)
+278.307,SYSTEM,SCREEN,SCREEN_UPDATE,UPDATE,Screen information Updated
+286.2614,USER,ACTION,BTN_TOUCH,btn_uncheck,Screen1(Home_screen):btn_uncheck()
+286.2631,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen1toScreen2After1s(),screen1:Screen1(home) to Screen2(cancel)
+289.257,USER,ACTION,ITEM_REMOVE,Cheese,Cheese1
+289.2576,SYSTEM,SYSTEM_MESSAGE,ITEM_REMOVE,screen2_result_message,치즈 ( 4000 원 ) (이)가 취소되었습니다.
+292.2602,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen2toScreen1After3s,Screen2(cancel) to Screen1(home)
+292.2661,SYSTEM,SCREEN,SCREEN_UPDATE,UPDATE,Screen information Updated
+293.7134,USER,ACTION,BTN_TOUCH,btn_pay,Screen1(Home_screen):btn_pay()
+293.7144,SYSTEM,SYSTEM_MESSAGE,RESULT_MSG,result_message,trying to pay
+296.3821,USER,ACTION,PAY,card,discount_yn:Y
+296.3831,USER,ACTION,END,21000,discount_yn:Y
+296.3837,SYSTEM,SYSTEM_MESSAGE,RESULT_MSG,21000,discount_yn:Y
+298.3765,SYSTEM,SCREEN,SCREEN_CHANGE,card:CallEndingScneneAfter5f,(SUCC) End of Game!
+303.5345,SYSTEM,SCENE,START,START(),scene_name:EndEvent.cs

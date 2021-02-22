@@ -1,0 +1,74 @@
+﻿AppTime,Actor,Event_Category,Event_Type,Object,Attributes
+20.17735,SYSTEM,SCENE,START,Start(),AdminEvent.cs
+20.24409,SYSTEM,SCENE,START,Start(),scene_name:IntroEvent.cs
+35.69309,ADMIN,ACTION,CLICK,introEvent:btn_trial,-
+35.75742,SYSTEM,SCENE,START,Start(),InstructionEvent.cs
+67.55627,ADMIN,ACTION,CLICK,instructionEvent:btn_next,page:1
+83.02968,ADMIN,ACTION,CLICK,instructionEvent:btn_next,page:2
+97.2629,ADMIN,ACTION,CLICK,instructionEvent:btn_next,page:3
+135.3706,ADMIN,ACTION,CLICK,instructionEvent:btn_next,page:4
+154.2621,ADMIN,ACTION,CLICK,instructionEvent:btn_next,page:5
+159.3811,ADMIN,ACTION,CLICK,instructionEvent:btn_next,page:6
+174.8201,ADMIN,ACTION,CLICK,instructionEvent:btn_next,page:7
+183.7921,ADMIN,ACTION,CLICK,instructionEvent:btn_next,page:8
+192.8231,ADMIN,ACTION,CLICK,instructionEvent:btn_next,page:9
+192.8239,ADMIN,SCENE,CLICK,instructionEvent:btn_next,LAST_PAGE:4_MartScene
+227.8803,ADMIN,ACTION,CLICK,introEvent:btn_start,CONTENS_START!!
+519.9462,USER,ACTION,ITEM_ADD,Chip,Chip1
+519.9474,SYSTEM,SYSTEM_MESSAGE,ITEM_ADD,screen1_result_message,감자칩 (이)가 추가되었습니다.
+519.95,SYSTEM,SCREEN,SCREEN_UPDATE,UPDATE,Screen information Updated
+525.8303,USER,ACTION,ITEM_ADD,Juice,Juice1
+525.831,SYSTEM,SYSTEM_MESSAGE,ITEM_ADD,screen1_result_message,주스 (이)가 추가되었습니다.
+525.8337,SYSTEM,SCREEN,SCREEN_UPDATE,UPDATE,Screen information Updated
+530.9279,USER,ACTION,ITEM_ADD,Apple,Apple1
+530.9289,SYSTEM,SYSTEM_MESSAGE,ITEM_ADD,screen1_result_message,사과 (이)가 추가되었습니다.
+530.9312,SYSTEM,SCREEN,SCREEN_UPDATE,UPDATE,Screen information Updated
+536.898,USER,ACTION,BTN_TOUCH,btn_pay,Screen1(Home_screen):btn_pay()
+537.9084,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen1toScreen3After1s(),screen1:Screen1(home) to Screen3(asking_dc)
+540.6284,USER,ACTION,BTN_TOUCH,btn_no,Screen3:btn_no()
+541.4062,USER,ACTION,BTN_TOUCH,btn_no,Screen3:btn_no()
+541.6291,SYSTEM,SYSTEM_MESSAGE,SCREEN_UPDATE,screen1_result_message,trying to pay
+541.6332,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen3toScreen1After1s(),Screen3(asking) to Screen1(home)
+542.4059,SYSTEM,SYSTEM_MESSAGE,SCREEN_UPDATE,screen1_result_message,trying to pay
+542.4069,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen3toScreen1After1s(),Screen3(asking) to Screen1(home)
+545.4828,USER,ACTION,BTN_TOUCH,btn_previous,screen5
+545.4837,SYSTEM,SCREEN,SCREEN_CHANGE,screen change,screen5:screen5(pay) to screen1(home)
+548.6168,USER,ACTION,BTN_TOUCH,btn_uncheck,Screen1(Home_screen):btn_uncheck()
+548.6205,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen1toScreen2After1s(),screen1:Screen1(home) to Screen2(cancel)
+552.3908,USER,ACTION,ITEM_REMOVE,Apple,Apple1
+552.3915,SYSTEM,SYSTEM_MESSAGE,ITEM_REMOVE,screen2_result_message,사과 ( 10000 원 ) (이)가 취소되었습니다.
+555.3912,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen2toScreen1After3s,Screen2(cancel) to Screen1(home)
+555.3935,SYSTEM,SCREEN,SCREEN_UPDATE,UPDATE,Screen information Updated
+556.7897,USER,ACTION,BTN_TOUCH,btn_pay,Screen1(Home_screen):btn_pay()
+557.7872,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen1toScreen3After1s(),screen1:Screen1(home) to Screen3(asking_dc)
+559.0742,USER,ACTION,BTN_TOUCH,btn_yes,Screen3:btn_yes()
+560.0781,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen3toScreen4After1s(),Screen3(asking dc) to Screen4(ds)
+565.2628,USER,ACTION,BTN_TOUCH,Key_A,
+566.317,USER,ACTION,BTN_TOUCH,Key_A,
+567.1055,USER,ACTION,BTN_TOUCH,Key_1,
+568.9174,USER,ACTION,BTN_TOUCH,btn_apply,
+568.9183,USER,ACTION,CODE_SUCC,49000,screen4
+568.9188,SYSTEM,SYSTEM_MESSAGE,CODE_SUCC,result_message,screen4: 할인코드 적용이 완료되었습니다!
+569.9169,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen4toScreen1After1s(),screen4:Screen4(dc) to Screen1(home)
+569.9182,SYSTEM,SYSTEM_MESSAGE,SCREEN_UPDATE,result_message,trying to pay
+569.9188,SYSTEM,SYSTEM_MESSAGE,SCREEN_UPDATE,result_message,trying to pay
+578.0266,USER,ACTION,PAY,card,discount_yn:Y
+578.0275,USER,ACTION,LIMITS_EXCEEDED,49000,discount_yn:Y
+578.0284,SYSTEM,SYSTEM_MESSAGE,RESULT_MSG,49000,discount_yn:Y
+584.9898,USER,ACTION,BTN_TOUCH,btn_uncheck,Screen1(Home_screen):btn_uncheck()
+584.9924,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen1toScreen2After1s(),screen1:Screen1(home) to Screen2(cancel)
+586.7072,USER,ACTION,BTN_TOUCH,btn_home,Screen1(Home_screen):btn_pay()
+586.7092,SYSTEM,SCREEN,SCREEN_CHANGE,btnHome,screen2:Screen2()cancel to Screen1(home)
+590.5053,USER,ACTION,BTN_TOUCH,btn_uncheck,Screen1(Home_screen):btn_uncheck()
+590.507,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen1toScreen2After1s(),screen1:Screen1(home) to Screen2(cancel)
+597.2505,USER,ACTION,ITEM_REMOVE,Chip,Chip1
+597.2513,SYSTEM,SYSTEM_MESSAGE,ITEM_REMOVE,screen2_result_message,감자칩 ( 50000 원 ) (이)가 취소되었습니다.
+600.2481,SYSTEM,SCREEN,SCREEN_CHANGE,ChangeScreen2toScreen1After3s,Screen2(cancel) to Screen1(home)
+600.2502,SYSTEM,SCREEN,SCREEN_UPDATE,UPDATE,Screen information Updated
+603.3,USER,ACTION,BTN_TOUCH,btn_pay,Screen1(Home_screen):btn_pay()
+603.3015,SYSTEM,SYSTEM_MESSAGE,RESULT_MSG,result_message,trying to pay
+609.601,USER,ACTION,PAY,card,discount_yn:Y
+609.6019,USER,ACTION,END,0,discount_yn:Y
+609.6024,SYSTEM,SYSTEM_MESSAGE,RESULT_MSG,0,discount_yn:Y
+611.608,SYSTEM,SCREEN,SCREEN_CHANGE,card:CallEndingScneneAfter5f,(SUCC) End of Game!
+616.6799,SYSTEM,SCENE,START,START(),scene_name:EndEvent.cs

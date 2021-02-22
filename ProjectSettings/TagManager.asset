@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Cabbage
+  - Tomato
+  - Pineapple
+  - Other stuffs
+  - Pear
+  - Cucumber
+  - Orange
+  - Potatp
+  - Potato
+  - Jelly
+  - Sugar
+  - Chip
+  - Tuna
+  - Corn
+  - Coffee
+  - Sausage
+  - Cheese
+  - Water
+  - Juice
+  - Milk
+  - Bread
+  - Baguette
+  - Key_1
+  - Key_A
+  - Key_2
+  - Key_3
+  - Key_4
+  - Key_B
+  - Key_C
+  - Key_D
+  - CheckBox
+  - Lemon
+  - Pumpkin
+  - btn_pay
+  - card
+  - Apple
+  - Key_Back
+  - Key_Enter
+  - Garlic
+  - btn_completed
+  - left_cellphone
+  - Hands
+  - Scanner
+  - btn_dc
+  - right_hand
+  - btn_uncheck
+  - btn_no
+  - btn_yes
+  - Undefined
+  - btn_back
+  - btn_apply
+  - btn_home
+  - Key_5
+  - Key_6
+  - Key_7
+  - Key_8
+  - Key_9
+  - Key_0
+  - Key_E
+  - Key_F
+  - Key_G
+  - Key_H
+  - Key_I
+  - Key_J
+  - Key_K
+  - Key_L
+  - Key_M
+  - Key_N
+  - Key_O
+  - Key_P
+  - Key_Q
+  - Key_R
+  - Key_S
+  - Key_T
+  - Key_U
+  - Key_V
+  - Key_W
+  - Key_X
+  - Key_Y
+  - Key_Z
+  - btn_previous
+  - total_price
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Scanner
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: 1
+    uniqueID: 2959416153
+    locked: 0
