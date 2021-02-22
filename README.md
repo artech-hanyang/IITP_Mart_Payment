@@ -1,5 +1,5 @@
 # SELF-CHECKOUT SYSTEM IN VIRTUAL MALL ([v1.0.3](https://github.com/mjk2072/IITP_Mart_Payment/blob/master/HISTORY.md "history")) 
-<p align="right">@Updated Sep 09, 2020</p>   
+<p align="right">@Updated Feb 23, 2021</p>   
 
 This repository for IITP project. </br></br>
 
